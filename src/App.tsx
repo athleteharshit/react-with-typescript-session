@@ -2,6 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import Home from "./components/Home";
+import Hooks from "./components/Hooks";
+
 const queryClient = new QueryClient();
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/hooks" element={<Hooks />} />
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>

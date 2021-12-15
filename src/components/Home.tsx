@@ -2,6 +2,7 @@ import { makeStyles, createStyles } from "@mui/styles";
 import axios from "axios";
 import { useCallback, useState } from "react";
 import Button from "./learingProps/Button";
+import Container from "./learingProps/Container";
 import Greet from "./learingProps/Greet";
 import Heading from "./learingProps/Heading";
 import HeadingParent from "./learingProps/HeadingParent";
@@ -63,6 +64,8 @@ function Home() {
       {/* ? oprional parmeter */}
       {/* <Button handleClick={handleClick} /> */}
       {/* <Input value="" handleChange={(e) => console.log(e)} /> */}
+      {/* <Container styles={{ border: "1px solid red", background: "pink" }} /> */}
+      {/* tips */}
     </div>
   );
 }
