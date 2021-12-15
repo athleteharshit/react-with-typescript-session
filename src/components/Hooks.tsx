@@ -5,8 +5,9 @@ function Hooks() {
   return (
     <div>
       <h1>React hooks</h1>
-      <LoggedIn />
-      <User />
+      {/* <LoggedIn /> */}
+      {/* <User /> */}
+      {/* type assertion */}
     </div>
   );
 }

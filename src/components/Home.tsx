@@ -1,4 +1,5 @@
 import { makeStyles, createStyles } from "@mui/styles";
+import { Theme } from "@mui/material/styles";
 import axios from "axios";
 import { useCallback, useState } from "react";
 import Button from "./learingProps/Button";
@@ -11,10 +12,13 @@ import Person from "./learingProps/Person";
 import PersonList from "./learingProps/PersonList";
 import Status from "./learingProps/Status";
 
-const useStyles = makeStyles(() =>
+const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       textAlign: "center",
+    },
+    heading: {
+      color: theme.palette.primary.main,
     },
   })
 );
@@ -52,7 +56,7 @@ function Home() {
 
   return (
     <div className={classes.root}>
-      <h1>React TypeScript</h1>
+      <h1 className={classes.heading}>React TypeScript</h1>
       {/* <Greet name="Harshit gupta" message={50} isLogged={true} /> */}
       {/* <Person name={name} /> */}
       {/* <PersonList names={names} /> */}
