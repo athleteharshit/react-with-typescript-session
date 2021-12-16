@@ -9,9 +9,10 @@ function Hooks() {
       {/* <LoggedIn /> */}
       {/* <User /> */}
       {/* type assertion */}
-      <DomRef />
+      {/* <DomRef /> */}
     </div>
   );
 }
 
 export default Hooks;
+

@@ -75,3 +75,7 @@ function Home() {
 }
 
 export default Home;
+
+// task
+// restrict props
+// component props
