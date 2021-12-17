@@ -18,3 +18,4 @@ function Others() {
 export default Others;
 
 // template literals
+// exracting component props
