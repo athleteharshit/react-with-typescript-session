@@ -1,3 +1,5 @@
+import React from 'react';
+
 function List() {
   console.log("render title");
   return (
@@ -7,4 +9,4 @@ function List() {
   );
 }
 
-export default List;
+export default React.memo(List);

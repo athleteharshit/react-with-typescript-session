@@ -4,6 +4,7 @@ type GreetProps = {
   isLogged: boolean;
 };
 
+
 function Greet({ name, message, isLogged }: GreetProps) {
   return (
     <div>

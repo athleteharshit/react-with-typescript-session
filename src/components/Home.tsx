@@ -69,7 +69,6 @@ function Home() {
       {/* <Button handleClick={handleClick} /> */}
       {/* <Input value="" handleChange={(e) => console.log(e)} /> */}
       {/* <Container styles={{ border: "1px solid red", background: "pink" }} /> */}
-      {/* tips */}
     </div>
   );
 }
@@ -79,3 +78,5 @@ export default Home;
 // task
 // restrict props
 // component props
+
+// (event: React.MouseEvent<HTMLButtonElement>) => void;

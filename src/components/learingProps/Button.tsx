@@ -1,5 +1,5 @@
 type ButtonProps = {
-  handleClick: () => void;
+  handleClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
 // !also mouse events and second argument pass
@@ -7,7 +7,7 @@ type ButtonProps = {
 function Button({ handleClick }: ButtonProps) {
   return (
     <div>
-      <button onClick={handleClick}>click</button>
+      <button onClick={(e) => handleClick(e)}>click</button>
     </div>
   );
 }

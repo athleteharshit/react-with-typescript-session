@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Button from "./Button";
 import Count from "./Count";
 import List from "./List";
@@ -7,12 +7,14 @@ function ParentComponent() {
   const [age, setAge] = useState(0);
   const [salary, setSalary] = useState(0);
 
-  const handleIncrementAge = () => {
+  const handleIncrementAge = useCallback(() => {
     setAge((pre) => pre + 1);
-  };
-  const handleIncrementSalary = () => {
+  }, [age]);
+
+  const handleIncrementSalary = useCallback(() => {
     setSalary((pre) => pre + 10);
-  };
+  }, [salary]);
+
   return (
     <div>
       <List />

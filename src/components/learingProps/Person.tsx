@@ -1,9 +1,11 @@
-type PersonProps = {
-  name: {
-    firstName: string;
-    lastName: string;
-  };
-};
+// type PersonProps = {
+//   name: {
+//     firstName: string;
+//     lastName: string;
+//   };
+// };
+
+import { PersonProps } from "./props-types";
 
 function Person({ name }: PersonProps) {
   return (

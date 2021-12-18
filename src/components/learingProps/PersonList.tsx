@@ -1,17 +1,19 @@
-type PersonListProps = {
-  names: {
-    firstName: string;
-    lastName: string;
-  }[];
-};
+// type PersonListProps = {
+//   names: {
+//     firstName: string;
+//     lastName: string;
+//   }[];
+// };
+
+import { PersonListProps } from "./props-types";
 
 function PersonList({ names }: PersonListProps) {
   return (
     <div>
-      {names.map((item, index) => (
+      {names.map((i, index) => (
         <div key={index}>
           <h1>
-            {item.firstName} {item.lastName}
+            {i.firstName} {i.lastName}
           </h1>
         </div>
       ))}

@@ -28,10 +28,12 @@ function App() {
 
 export default App;
 
-// important links 
+// important links
 // https://usehooks.com/
-// https://react-typescript-cheatsheet.netlify.app/docs/basic/troubleshooting/types
-// https://www.typescriptlang.org/docs/handbook/2/basic-types.html
-
+// https://react-hooks.org/docs/getting-started
 // useCallback
 // https://kentcdodds.com/blog/usememo-and-usecallback
+
+// https://react-typescript-cheatsheet.netlify.app/docs/basic/troubleshooting/types
+// https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+// https://github.com/typescript-cheatsheets/react

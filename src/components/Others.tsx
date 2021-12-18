@@ -7,10 +7,10 @@ function Others() {
     <div>
       <h1>Other Concept</h1>
       {/* <List items={["a", "b"]} onClick={(item) => console.log(item)} />  */}
-      {/* <Toast position="center" /> */}
-      {/* <CustomeButton variant="secondary" onClick={() => console.log("cliked")}>
+      <Toast position="center" />
+      <CustomeButton variant="secondary" onClick={() => console.log("cliked")}>
         Cliked
-      </CustomeButton> */}
+      </CustomeButton>
     </div>
   );
 }
